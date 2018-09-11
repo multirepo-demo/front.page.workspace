@@ -1,0 +1,11 @@
+.DS_STORE
+*.log
+
+.idea/
+
+.vscode/
+
+node_modules
+package-lock.json
+src
+webpack.config.js

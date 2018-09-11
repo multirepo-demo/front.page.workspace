@@ -1,0 +1,28 @@
+{
+  "name": "front.page.workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "front build --mode production",
+    "build": "front build",
+    "start": "front build --server --with-links --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multirepo-demo/front.page.workspace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/multirepo-demo/front.page.workspace/issues"
+  },
+  "homepage": "https://github.com/multirepo-demo/front.page.workspace#readme",
+  "devDependencies": {
+    "front.tools": "github:multirepo-demo/front.tools"
+  },
+  "dependencies": {
+    "front.page.one": "github:multirepo-demo/front.page.one"
+  }
+}
